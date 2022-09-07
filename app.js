@@ -71,7 +71,7 @@ t1.fromTo(
 }
 animation()
 
-var cars = [`        <div class="loader">
+var firstPage = [`        <div class="loader">
 <div class="loader-inner">
   <div class="loader-line-wrap">
     <div class="loader-line"></div>
@@ -91,8 +91,8 @@ var cars = [`        <div class="loader">
 </div>
 </div>`];
 
-for(var i=0; i<cars.length; ++i){
-    $(".new").append(cars[i] +"<br/>");
+for(var i=0; i<firstPage.length; ++i){
+    $(".new").append(firstPage[i]);
 
     setTimeout(function() {
         $( ".new" ).empty();
